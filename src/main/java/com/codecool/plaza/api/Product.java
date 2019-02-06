@@ -7,7 +7,9 @@ public abstract class Product {
     protected String manufacturer;
 
     protected Product(long barcode, String name, String manufacturer) {
-
+        this.barcode = barcode;
+        this.name = name;
+        this.manufacturer = manufacturer;
     }
 
     public long getBarcode() {
